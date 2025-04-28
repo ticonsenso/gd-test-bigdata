@@ -28,7 +28,20 @@ En consola se mostrara una url para abrir en el navegador, similar a:
 
 Validar el puerto en que se abre la imagen, en VSCode en la ventana "PORTS" se puede revisar el puerto que se mapeo a su host local, por lo general, se levanta en el puerto 8888.
 
+### Acceso a la base de datos postgres
+El mismo contenedor de desarrollo incluye una base de datos PostgreSQL, el cuál puede ser accedido desde cualquier IDE Gestor de Base de datos (recomendamos DBeaver), los parametros de acceso son:
+- **Host:** localhost
+- **Port:** 5432
+- **User:** postgres
+- **Pass:** postgres
+- **Database:** postgres
+
 ## Estructura del proyecto
 El proyecto maneja la siguiente estructura:
 
-- **/notebooks:** es aquí donde se desarrollará la evaluación, se crearán los notebooks necesarios, se incluye un notebook de prueba, donde se muestra la conexión a la base de datos postgres, que es la base usada dentro del contenedor para la evaluación. Dentro de este directorio se construirá todas las estructuras necesarias para llegar a la solución explicada en el documento de evaluación.
+- **/notebooks:** es aquí donde se desarrollará la evaluación, se crearán los notebooks necesarios, se incluye un notebook de prueba, donde se muestra la conexión a la base de datos postgres, que es la base usada dentro del contenedor para la evaluación. Dentro de este directorio se construirá todas las estructuras necesarias para llegar a la solución explicada en el documento de evaluación (Evaluacion_Tecnica.md)
+
+## Importante
+Antes de empezar el desarrollo de la evaluación, es necesario que cada candidato haga un fork del proyecto a su propio espacio de Github, para mantener el orden de sus desarrollos y la correcta revisión y posterior calificación de la evaluación.
+
+El candidato subirá todo su desarrollo a su repositorio local, y el mismo deberá ser abierto para poder ingresar de nuestro lado, el candidato debe asegurar que el personal encargado de la evaluación de los resultados pueda ejecutar el mismo y a su vez, pueda ejecutar el script de base de datos relacional que se especifica en la evaluación.
