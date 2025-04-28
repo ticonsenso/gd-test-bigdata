@@ -44,9 +44,9 @@ Incluir dentro del proyecto:
 
 ## Ejercicio 3: Reportes BI (7pts)
 **Descripción:** Con la estructura DWH construida en el ejercicio 2, se debe generar los mismos reportes solicitados por el área de negocio.
-- Productos más vendidos (1p)
-- Clientes con el mayor número de pedidos (1p)
-- Corresponsal con el mayor número de pedidos (1p)
+- Top 10 Productos más vendidos (1p)
+- Top 5 Clientes con el mayor número de pedidos (1p)
+- Top 5 Corresponsales con el mayor número de pedidos (1p)
 - Total de pagos diario y mensual por productos (1p)
 - Total de pagos diario y mensual por clientes (1p)
 - Total de pagos diario y mensual por corresponsal (1p)
