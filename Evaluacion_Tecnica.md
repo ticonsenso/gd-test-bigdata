@@ -3,14 +3,14 @@ Hemos preparado unos ejercicios o problemas prácticos del día a día en el mun
 
 `Importante`: Se evaluará la forma en que el candidato organice sus ficheros, uso de estándares para la creación de estructuras, adecuada gestión de celdas en los notebook y documentación con la explicación del ejercicio.
 
-## Ejercicio 1: Diseño y construcción de esquema de base de datos. (4pts)
+## Ejercicio 1: Diseño y construcción de esquema de base de datos. (5pts)
 **Descripción:** Diseñar un esquema de base de datos para una aplicación de comercio electrónico para una empresa llamada MP3. Los clientes tendrán acceso a un catálogo de productos, y podrán realizar órdenes de compra con uno o varios artículos (Nombre, descripción y precio), el sistema no posee una pasarela de pago, para realizar el pago se deberá realizar desde cualquier corresponsal con el número de orden de compra.
 
 **Requisitos:**
 - Crear diagrama entidad-relación (1p)
 - Construir estructuras basado en el diagrama (1p)
 - Incluir atributos relevantes como PK, FK, Nombres de clientes, detalle de productos, fecha de orden de compra (1p)
-- Incluir datos de personas o productos con tildes, ñ, guión bajo, guión medio.
+- Incluir datos de personas o productos con tildes, ñ, guión bajo, guión medio. (1p)
 - Incluir valores decimales con 5 dígitos. (1p)
 
 **Entregables:**
@@ -18,7 +18,7 @@ Incluir dentro del proyecto:
 - Diagrama entidad-relación
 - Script SQL con los DLL de las estructuras y la insercción de los datos de prueba.
 
-## Ejercicio 2: Diseño y construcción de modelo data warehouse. (4pts)
+## Ejercicio 2: Diseño y construcción de modelo data warehouse. (5pts)
 **Descripción**: Se plantea diseñar un modelo data warehouse sencillo a partir del resultado del ejercicio 1, construido directamente con notebooks jupyter, para ello el modelo debe satisfacer las siguientes necesidades:
 - Productos más vendidos
 - Clientes con el mayor número de pedidos
@@ -38,7 +38,7 @@ Incluir dentro del proyecto:
     - Limpieza de datos: (2p)
         - Nombres en mayúsculas, sin tildes, sin ñ, sin guiones bajos y medios.
         - Valores numéricos con solo dos decimales redondeados al inmediato superior.
-    - Integración de los datos: (1p)
+    - Integración de los datos: (2p)
         - Scripts con la creación de las tablas de dimensiones
         - Scripts con la creación de las tablas de hechos
 
