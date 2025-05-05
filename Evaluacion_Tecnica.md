@@ -6,7 +6,7 @@ Se han incluido aspectos de administración de Base de Datos que permiten resolv
 `Importante`: Se evaluará la forma en que el candidato organice sus ficheros, uso de estándares para la creación de estructuras, adecuada gestión de celdas en los notebook y documentación con la explicación del ejercicio. Adicionalmente se tomará en cuenta el enfoque empleado para garantizar la optimización de consultas y el uso eficiente de los recursos de infraestructura, también se dará importancia sobre la arquitectura planteada que permita la recuperación y disponibilidad de los datos en caso de un desastre, y finalmente se valorará la estrategia para dimensionar el crecimiento de recursos.
 
 
-## Valoración Teórica: Evalucación de conocimientos teóricos
+## Valoración Teórica: Evaluación de conocimientos teóricos
 **Descripción:** Responda las siguientes preguntas de acuerdo su criterio tomando en consideración las mejores prácticas y siendo óptimos en cuanto a tiempos, costos y seguridad.
 
  - **Pregunta 1 - (3pts):** En un escenario donde existen tres ambientes de bases de datos (Desarrollo, Calidad y Producción) con versión Oracle Database 19c y edición DBCS SE cada una ¿Cuál sería su estrategia para realizar una copia de datos entre Producción y Calidad sin infringir licenciamiento, sin generar downtime y en el mejor tiempo posible sabiendo que la base de datos pesa 5TB y tiene 6000 índices? - (3pts)
