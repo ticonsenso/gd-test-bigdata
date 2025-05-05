@@ -1,9 +1,9 @@
 # Evaluación Técnica: Ingeniero de datos y Administrador de Base de Datos
-Hemos preparado una evaluación teórica y algunos ejercicios o problemas prácticos del día a día en el mundo del desarrollo, admninistración, integración y BigData. Queremos con esto validar y valorar tus conocimientos e iniciativas para resolverlos.
+Hemos preparado una evaluación teórica y algunos ejercicios o problemas prácticos del día a día en el mundo del desarrollo, administración, integración y BigData. Queremos con esto validar y valorar tus conocimientos e iniciativas para resolverlos.
 
 Se han incluido aspectos de administración de Base de Datos que permiten resolver situaciones de contingencia, performance y recuperación de información sobre las bases de datos. También se consideran escenarios en los que se requiere habilitar nuevos repositorios o ambientes sandbox.
 
-`Importante`: Se evaluará la forma en que el candidato organice sus ficheros, uso de estándares para la creación de estructuras, adecuada gestión de celdas en los notebook y documentación con la explicación del ejercicio. Adicionalmente se tomará en cuenta el enfoque empleado para garantizar la optimización de consultas y el uso eficiente de los recursos de infraestructura, también se dará importancia sobre la arquitectura planteada que permita la recuperación y disponibilidad de los datos en caso de un desastre, y finalmente se valorará la estrategia para dimensionar el crecimiento de recursos.
+`Importante`: Se evaluará la forma en que el candidato organice sus ficheros, uso de estándares para la creación de estructuras, adecuada gestión de celdas en los notebook y documentación con la explicación del ejercicio. Adicionalmente se tomará en cuenta el enfoque empleado para garantizar la optimización de consultas y el uso eficiente de los recursos de infraestructura, también se dará importancia sobre la arquitectura planteada que permita la recuperación y disponibilidad de los datos en caso de un desastre. Finalmente se valorará la estrategia para dimensionar el crecimiento de recursos.
 
 
 ## Valoración Teórica: Evaluación de conocimientos teóricos
@@ -18,13 +18,13 @@ Se han incluido aspectos de administración de Base de Datos que permiten resolv
             | Calidad    | 12       | SE       | Ninguno                                                       |
             | Producción | 12       | EE       | In Memory Database, Partitioning, Diagnostic and Tunning Pack |
             
-    ¿Cuál sería su estrategia para realizar una copia de datos sin infringir licenciamiento, sin downtime y en el menor tiempo posible? - (3pts)
+    ¿Cuál sería su estrategia para realizar una copia de datos sin infringir licenciamiento, sin downtime y en el menor tiempo posible?
 
  - **Pregunta 3 - (2pts):** Una base de datos productiva presenta un tamaño de 8TB en sus tablespaces, se realizan actividades de depuración de tablas y objetos binarios recuperando 4TB, sin embargo al observar el consumo general de la base de la base de datos en sus datafiles la misma no presenta mayor disminución de tamaño. ¿Qué debemos hacer para recuperar los 4TB que fueron depurados de las tablas considerando que el release es Oracle Database 19c sin generar downtime? 
 
  - **Pregunta 4 - (2pts):** Un desarrollador reporta que eliminó accidentalmente un objeto en la base de datos Oracle productiva luego de solicitar un acceso privilegiado. Este objeto es esencial para que la aplicación funcione correctamente ¿Qué estrategia y actividades aplicaría para recuperar la operación del sistema a un estado normal? 
 
- - **Pregunta 5 - (4pts):** Usted recibe un incidente en el que se notifica que un servicio web consumido desde un paquete Plsql reporta un error de conexión. El inconveniente se presenta luego de realizar un upgrade base de datos. ¿Qué estrategia adoptaría para resolver el problema con una base de datos Oracle Database? 
+ - **Pregunta 5 - (4pts):** Usted recibe un incidente en el que se notifica que un servicio web consumido desde un paquete Plsql reporta un error de conexión. El inconveniente se presenta luego de realizar un upgrade base de datos. ¿Qué estrategia adoptaría para resolver el problema con una base de datos Oracle? 
 
  - **Pregunta 6 - (3pts):** Se dispone de un ambiente productivo con una base de datos Primaria y otra en Standby. Sus tnsnames consideran un cambio automático entre las instancias cuando existe un proceso de switchover o failover. Un equipo que se conecta a la base de datos presenta constantes problemas de conexión sin embargo el monitoreo de la base de datos indica un estado saludable. ¿Qué actividades realizaría para llegar a un diagnóstico y solución del problema? 
 
@@ -34,15 +34,15 @@ Se han incluido aspectos de administración de Base de Datos que permiten resolv
 ## Valoración Práctica: Aplicación práctica de los conocimientos y habilidades en situaciones reales. 
 
 ### Ejercicio 1: Diseño arquitectónico de la infraestructura requerida para soportar procesos de analítica en un entorno cloud. (6pts)
-**Descripción:** Diseñar una arquitectura que soporte la aplicación inicial y que permita el escalamiento con un enfoque de alta disponibilidad, recuperación y seguridad. Determine el ambiente cloud más eficiente en términos de costo, rendimiento, seguridad y escalabilidad.
+**Descripción:** Diseñar una arquitectura que soporte la aplicación detallada en los siguientes puntos y que permita el escalamiento con un enfoque de alta disponibilidad, recuperación y seguridad. Determine el ambiente cloud más eficiente en términos de costo, rendimiento, seguridad y escalabilidad.
 
 **Requisitos:**
-- Crear diagrama de arquitectura en Draw.io (1p)
-- Arquitectura de Base de Datos empleada (1p)
-- Arquitectura de Redes propuesta (1p)
+- Crear un diagrama de arquitectura en Draw.io (1p)
+    - Incluir la arquitectura de Base de Datos empleada (1p)
+    - Incluir la arquitectura de Redes propuesta (1p)
 - Estimación de costos de infraestructura (1p)
 - Elementos de seguridad propuestos (1p)
-- Tiempos requeridos para esalación de recursos (1)
+- Tiempos requeridos para escalación de recursos (1)
 
 **Entregables:**
 Incluir dentro del proyecto:
