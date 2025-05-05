@@ -7,7 +7,7 @@ Se han incluido aspectos de administración de Base de Datos que permiten resolv
 
 
 ## Valoración Teórica: Evalucación de conocimientos teóricos
-**Descripción:** Responder las siguientes preguntas de acuerdo su criterio tomando en consideración las mejores prácticas y siendo óptimos en cuanto a tiempos, costos y seguridad.
+**Descripción:** Responda las siguientes preguntas de acuerdo su criterio tomando en consideración las mejores prácticas y siendo óptimos en cuanto a tiempos, costos y seguridad.
 
  - **Pregunta 1 - (3pts):** En un escenario donde existen tres ambientes de bases de datos (Desarrollo, Calidad y Producción) con versión Oracle Database 19c y edición DBCS SE cada una ¿Cuál sería su estrategia para realizar una copia de datos entre Producción y Calidad sin infringir licenciamiento, sin generar downtime y en el mejor tiempo posible sabiendo que la base de datos pesa 5TB y tiene 6000 índices? - (3pts)
 
